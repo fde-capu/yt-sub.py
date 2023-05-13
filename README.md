@@ -15,7 +15,7 @@ pip3 install youtube_transcript_api pytube
 Run the script with the following command:
 
 ```
-python yt-sub.py [<video_id>] [<language_code>]
+python3 yt-sub.py [<video_id>] [<language_code>]
 ```
 
 Replace `<video_id>` with the YouTube video ID and `<language_code>` with the desired subtitle language code (optional).
