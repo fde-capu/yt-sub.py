@@ -22,7 +22,7 @@ If you omit the `<language_code>` argument, the script will list the available s
 
 ## Example
 
-python yt-sub.py PELnMfcYUj0 en
+python3 yt-sub.py PELnMfcYUj0 en
 
 This will download the English subtitles for the video with ID `PELnMfcYUj0`.
 
