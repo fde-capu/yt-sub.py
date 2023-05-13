@@ -6,13 +6,17 @@ This program downloads subtitles from YouTube videos using the `youtube_transcri
 
 1. Install the required packages using the following command:
 
+```
 pip install youtube_transcript_api pytube
+```
 
 ## Usage
 
 Run the script with the following command:
 
+```
 python yt-sub.py [<video_id>] [<language_code>]
+```
 
 Replace `<video_id>` with the YouTube video ID and `<language_code>` with the desired subtitle language code (optional).
 
@@ -22,7 +26,9 @@ If you omit the `<language_code>` argument, the script will list the available s
 
 ## Example
 
+```
 python3 yt-sub.py PELnMfcYUj0 en
+```
 
 This will download the English subtitles for the video with ID `PELnMfcYUj0`.
 
