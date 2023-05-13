@@ -42,6 +42,6 @@ This program was created by Flávio Carrara (fde-capu) flavio@carrara.us.
 
 ## Copyright and License
 
-Copyright (c) 2023 Your Name. All rights reserved.
+Copyright (c) 2023 Flávio Carrara. All rights reserved.
 
 This software is licensed under a custom license that allows for free use, modification, and distribution for non-commercial purposes. For commercial use, a separate license must be obtained. Contact the author for more information on obtaining a commercial license.
