@@ -7,7 +7,7 @@ This program downloads subtitles from YouTube videos using the `youtube_transcri
 1. Install the required packages using the following command:
 
 ```
-pip install youtube_transcript_api pytube
+pip3 install youtube_transcript_api pytube
 ```
 
 ## Usage
