@@ -1,0 +1,3 @@
+[submodule "venvutils"]
+	path = venvutils
+	url = ./venvutils
