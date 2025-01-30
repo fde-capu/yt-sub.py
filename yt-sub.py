@@ -4,7 +4,7 @@
 ║ YouTube Subtitle Downloader ║
 ║ Author: fde-capu            ║
 ║ Email: flavio@carrara.us    ║
-║ Date: 5/13/2023             ║
+║ Date: 5/13/2023~25          ║
 ╚═════════════════════════════╝
 """
 import sys
