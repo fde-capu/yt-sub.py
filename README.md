@@ -1,36 +1,26 @@
+[ This project is currently not working. ]
+
 # YouTube Subtitle Downloader
 
 This program downloads subtitles from YouTube videos using the `youtube_transcript_api` and `pytube` packages.
 
 ## Installation
 
-1. Install the required packages using the following command:
+One way or another, you will and a python3 environment with the following dependencies:
 
-```
-pip3 install youtube_transcript_api pytube
-```
+- `youtube_transcript_api`
+- `pytube`
+
+You may do it manually, or use the refered `venvutils` git submodule. For the latter, check its documentation.
 
 ## Usage
 
-Run the script with the following command:
-
 ```
-python3 yt-sub.py [<video_id>] [<language_code>]
+./yt-sub.py [<video_id>] [<language_code>]
 ```
 
-Replace `<video_id>` with the YouTube video ID and `<language_code>` with the desired subtitle language code (optional).
-
-If you omit the `<video_id>` argument, the script will prompt you for it.
-
-If you omit the `<language_code>` argument, the script will list the available subtitle languages and prompt you to choose one.
-
-## Example
-
-```
-python3 yt-sub.py PELnMfcYUj0 en
-```
-
-This will download the English subtitles for the video with ID `PELnMfcYUj0`.
+`<video_id>` is the YouTube video ID, not the full link. Omit it and be prompted.
+`<language_code>` with the desired subtitle language code. Omit it and the script will prompt list the available options.
 
 ## Warnings
 

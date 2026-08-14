@@ -1,0 +1,7 @@
+*
+!.gitmodules
+!README.md
+!requirements.txt
+!venvutils
+!yt-sub.py
+!.gitignore

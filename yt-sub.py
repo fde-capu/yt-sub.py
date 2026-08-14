@@ -1,25 +1,26 @@
-#!/usr/bin/env python3
-
+#!/bin/env python3
 """
 ╔═════════════════════════════╗
 ║ YouTube Subtitle Downloader ║
 ║ Author: fde-capu            ║
 ║ Email: flavio@carrara.us    ║
-║ Date: 5/13/2023             ║
+║ Date: 5/13/2023~25          ║
 ╚═════════════════════════════╝
 """
 import sys
 from youtube_transcript_api import YouTubeTranscriptApi
 from pytube import YouTube
+import urllib.parse
 
 # Prompt the user for the video id or use the first argument
 if len(sys.argv) > 1:
     video_id = sys.argv[1]
 else:
     video_id = input("Enter the video id: ")
+video_id = urllib.parse.quote(video_id)
 
 # Fetch the video title and author information
-video_url = f"https://www.youtube.com/watch?v={video_id}"
+video_url = f'https://www.youtube.com/watch?v={video_id}'
 yt = YouTube(video_url)
 video_title = yt.title
 author_name = yt.author
