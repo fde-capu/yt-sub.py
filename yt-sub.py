@@ -1,4 +1,4 @@
-#!/bin/env python3
+#!./__pyvenv__/bin/python3
 """
 ╔═════════════════════════════╗
 ║ YouTube Subtitle Downloader ║
